@@ -22,4 +22,5 @@ require $loader;
 $application = new Application('DbTools', '1.0.0');
 $application->setCatchExceptions(true);
 $application->add(new \DbTools\Command\CompressCommand());
+$application->add(new \DbTools\Command\ServerCopyCommand());
 $application->run();
