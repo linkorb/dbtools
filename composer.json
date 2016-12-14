@@ -1,0 +1,28 @@
+{
+    "name": "linkorb/dbtools",
+    "description": "Database tools  ",
+    "homepage": "http://www.github.com/linkorb/dbtools",
+    "keywords": ["php", "mysql", "backup", "replication", "database", "optimization"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "LinkORB Engineering",
+            "email": "engineering@linkorb.com",
+            "role": "Development"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/console": "~2.7",
+        "symfony/process": "~2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "DbTools\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/dbtools"
+    ],
+    "license": "MIT"
+}
